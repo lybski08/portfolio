@@ -1,0 +1,103 @@
+/* type of font */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    font-family: 'Open Sans';
+    background-color: #212121;
+    color: #EDEDED;
+}
+h2 {
+    font-weight: bold;
+}
+
+/*header*/
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: auto;
+    width: 100%;
+}
+#myname {
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    font-size: 28px;
+}
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+.navigation-item {
+    margin: 1em;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color: #EDEDED;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #EDEDED;
+  }
+/*Header done*/
+
+/*About me*/
+.about-me-container {
+    display: flex;
+    margin: auto;
+}
+.about-me-container img {
+    max-width: 25%;
+    min-height: 125px;
+    height:fit-content;
+    align-self: center;
+    justify-self:right;
+    margin: 4%;
+} 
+
+.about-me-text-container {
+    max-width: 40%;
+}
+.about-me-text-container p{
+    font-size: 1.5em;
+    margin: 24px;
+}
+/*projects*/
+.project-title h3 {
+    display: inline;
+}
+.project img {
+    max-width: 30%;
+    min-height: 30px;
+    align-self: center;
+    justify-self:right;
+    margin: 4%;
+}
+.project-description {
+    margin: 24px;
+    font-size: 1.5em;
+}
+
+/*Skills*/
+#skills-container {
+    font-size: 200%;
+}
+
+
+/*Contact*/
+#contact a{
+    font-size: 200%;
+}
